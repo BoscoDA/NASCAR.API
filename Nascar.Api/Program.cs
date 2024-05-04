@@ -15,7 +15,7 @@ namespace Nascar.Api
 
             builder.Services.AddCors(opt => opt.AddPolicy(name: "CorsPolicy", policy =>
                 {
-                    policy.WithOrigins("https://iamnascarapi.azurewebsites.net")//replace with actual domain name
+                    policy.WithOrigins("https://iamnascarui.azurewebsites.net/")//replace with actual domain name
                            .AllowAnyHeader()
                            .AllowAnyMethod()
                            .AllowCredentials();
