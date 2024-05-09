@@ -6,5 +6,5 @@
 ## Hook up to UI
 
 - Add the url for the host web app to CORS in the program.cs file
-- Setup URLS in the preferences file
+- Setup URLS in the 'LaunchSettings.json' file
 - Add DB connection string to the DAL_Singleton object
